@@ -7,3 +7,56 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  background: blue;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+canvas {
+  color: white;
+  border: white dashed 2px;
+  padding: 15px;
+}
+
+#alphabet {
+  margin: 15px auto;
+  padding: 0;
+  max-width: 900px;
+}
+
+#alphabet li {
+  float: left;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 45px;
+  height: 40px;
+  cursor: pointer;
+  border: solid 1px white;
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display: block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 40px;
+}
+
+#mylives {
+  font-size: 40px;
+  text-align: center;
+  display: block;
+}
