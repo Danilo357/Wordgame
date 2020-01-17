@@ -7,9 +7,14 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
+.mainW {
+  border: 2px solid white;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background: purple;
+}
 body {
-  background: blue;
   font-family: "Times New Roman", Times, serif;
   color: white;
   height: 100%;
@@ -24,9 +29,7 @@ canvas {
 }
 
 #alphabet {
-  margin: 15px auto;
-  padding: 0;
-  max-width: 900px;
+  margin: 15px;
 }
 
 #alphabet li {
@@ -37,6 +40,8 @@ canvas {
   height: 40px;
   cursor: pointer;
   border: solid 1px white;
+  border-radius: 10px;
+  background: grey;
 }
 
 #my-word {
@@ -59,4 +64,10 @@ canvas {
   font-size: 40px;
   text-align: center;
   display: block;
+}
+#buttons {
+  border: 1px solid white;
+  width: 600px;
+  height: 170px;
+  margin: auto;
 }
